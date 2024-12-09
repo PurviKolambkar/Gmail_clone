@@ -1,0 +1,60 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+#search-input{
+    width: 350px;
+}
+.search-nav{
+    display: flex;
+    height: 30px;
+}
+.left-nav{
+    display: flex;
+}
+
+#compose{
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin :20px;
+}
+.Symbols{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name{
+    display: flex;
+}
+
+.message-container{
+    display: flex;
+    border: 1px solid rgb(49, 45, 45);
+    width: 600px;
+    gap: 30px;
+    align-items:baseline;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2{
+    display: flex;
+}
+
+.sorting{
+    display: flex;
+    padding: 5px;
+    margin-top:10px;
+    gap: 70px;
+}
